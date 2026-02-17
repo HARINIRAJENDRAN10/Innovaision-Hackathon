@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f1f8e9, #e0f7fa);
+}
+
+.card-custom {
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.card-custom:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: white;
+  border: none;
+}
